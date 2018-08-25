@@ -1,7 +1,7 @@
 "use strict"
 
 function js2png(imgID) {
-    var img = document.getElementById("payload");
+    var img = document.getElementById(imgID);
 
     img.addEventListener("load", function () {
         // Setup Canvas a draw image.
