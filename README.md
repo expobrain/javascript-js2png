@@ -5,8 +5,9 @@ description of the code follow this [post][1].
 
 ## Prerequisite
 
-* Go 1.3+
+* Go 1.3+ `sudo apt-get install golang-go`
 * Make (optional)
+* `git clone https://github.com/expobrain/javascript-js2png.git`
 
 ## Usage
 
@@ -16,7 +17,7 @@ To compile the JS-to-PNG encoder run:
 
 To convert any payload into an image:
 
-    bin/js2png js2png <js_file> <png_file>
+    bin/js2png <js_file> <png_file>
 
 ## Example
 
